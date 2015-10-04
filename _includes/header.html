@@ -13,12 +13,9 @@
         </svg>
       </a>
 
+      <!-- FIXME : 차후에 이 곳에 태그 리스트, 홈으로, 전체 글 리스트가 들어갈 것 -->
       <div class="trigger">
-        {% for page in site.pages %}
-          {% if page.title %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          {% endif %}
-        {% endfor %}
+        
       </div>
     </nav>
 
