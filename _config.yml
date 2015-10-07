@@ -7,4 +7,7 @@ url: "http://astrod.github.io" # the base hostname & protocol for your site
 github_username: astrod
 
 # Build settings
-markdown: kramdown
+markdown: rdiscount
+rdiscount:
+    extensions:
+      - generate_toc
