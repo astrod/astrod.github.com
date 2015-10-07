@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Linked Lists - Length & Count"
+tags: 
+- codewars
+---
+
 ##Problom
 
 Description:
@@ -45,3 +52,19 @@ function count(head, data) {
   return count;
 }
 
+##Best Solution
+function Node(data) {
+  this.data = data
+  this.next = null
+}
+
+function length(head) {
+  return head ? 1 + length(head.next) : 0
+}
+
+function count(head, data) {
+  if (!head) return 0
+  return (head.data === data ? 1 : 0) + count(head.next, data)
+}
+
+> 굉장히 우아하게 답을 구했다. 리커시브가 옳은 경우인듯? 나중에 누구한테 리커시브 설명해 줄 일이 있으면 링크드 리스트의 길이를 구하는 문제를 내 줘도 될 지경
