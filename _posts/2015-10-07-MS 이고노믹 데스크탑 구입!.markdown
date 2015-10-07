@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[책] 자바 ORM 표준 JPA 프로그래밍"
+title: "MS 어고노믹 데스크탑 구입!" 
 category : "사용기"
 ---
 
