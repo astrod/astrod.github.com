@@ -46,14 +46,16 @@ layout: default
 			$results = $container.find('ul.results');
 			for (var i in posts) {
 			  // Create an unordered list of the post's tags
+			  //tag의 마지막 값을 제거한다(항상 null이 들어오는 버그 존재)
 			  var tagsList = '<ul class="tags">',
-			      post     = posts[i],
+			      post     = posts[i];
+			  	  post.tags.splice(-1, 1);
 			      tags     = post.tags;
 
 			  for (var j in tags) {
 			    tagsList += ''
 			      + '<li>'
-			        + '<a href="/search.html?tags=' + tags[j] + '">' + tags[j] + '</a>'
+			        + '<a href="/search?tags=' + tags[j] + '">' + tags[j] + '</a>'
 			      + '</li>';
 			  }
 			  tagsList += '</ul>';
@@ -65,12 +67,6 @@ layout: default
 			        + '<h1>'
 			          + '<a href="' + post.href + '">' + post.title + '</a>'
 			        + '</h1>'
-			        // Post date
-			        + '<h2>'
-			          + post.date.formatted
-			          + ' in <a href="/search.html?category=' + post.category + '">'
-			          +  post.category + '</a>'
-			        + '</h2>'
 			        // Tags
 			        + tagsList
 			      + '</header>'
@@ -117,6 +113,8 @@ layout: default
 					o[enumMap.TAGS] = inputValue[1];
 				}
 			}
+
+			//tag의 마지막에 null이 들어가 있는 bug fix
 
 			return o; 
 		}

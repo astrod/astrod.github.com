@@ -12,7 +12,7 @@ layout: default
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           <div class="wraper">
               {% for tags in post.tags %}
-                <a class="post-meta" herf="/">{{ tags }}</a>
+                <a href="/search?tags={{ tags }}" class="post-meta" target="_blank">{{ tags }}</a>
               {% endfor %}
           </div>
         </h2>
