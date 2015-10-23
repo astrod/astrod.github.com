@@ -1,7 +1,9 @@
 ---
 layout: post
 title:  "jekyll과  github으로 블로그 작업 기록"
-tags : "blog", "jekyll"
+tags : 
+- blog
+- jekyll
 ---
 
 # 동기
