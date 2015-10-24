@@ -10,7 +10,6 @@ Take a string and return a hash with all the ascii values of the characters in t
 - 아스키코드로 변경하는 함수가 있을 것이라는 생각을 했다.
 - 함수는 있었다.
 - 그러나 문제는 정규표현식을 다루는 법을 잘 모른다는 것이었다.
-
 # 나의 답
 ```
 function charToAscii(string){
