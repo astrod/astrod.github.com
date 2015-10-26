@@ -12,6 +12,7 @@ Add a groupBy method to Array.prototype so that elements in an array could be gr
 The method should return an object, in which for each different value returned by the function there is a property whose value is the array of elements that return the same value.
 
 If no function is passed, the element itself should be taken.
+
 ```
 Example:
 
@@ -32,6 +33,7 @@ Example:
   2: [2, 2, 5]
 }
 ```
+
 - 문제를 접했을 때 큰 생각이 없었다. 전략이 떠오르지 않으면 안되는데...
 - 맨 처음에 prototype 안에서 배열에 어떻게 접근하는지 잘 몰라서 좀 고생했다. 알고 보니 this 객체로 접근할 수 있다더라...
 
