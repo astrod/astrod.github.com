@@ -51,7 +51,7 @@ function tickets(peopleInLine){
   if(flag) return "YES";
   else return "NO";
 }
-~~~ java
+~~~
 - 모든 경우의 수를 따져서 문제가 생기면 break를 하고 에러를 리턴한다.
 - 경우의 수를 잘 못 따져서 고생했다. 좀 더 아름다운 방법이 있을 거 같은데...
 
@@ -83,7 +83,7 @@ function tickets(peopleInLine) {
   
   return 'YES'
 }
-~~~ java
+~~~
 - switch-case를 사용해서 코드를 좀 더 깔끔하게 다듬었다.
 - 내가 한 방법과 크게 다르지 않음.
 - every를 사용한 한계인 거 같기도 하다.

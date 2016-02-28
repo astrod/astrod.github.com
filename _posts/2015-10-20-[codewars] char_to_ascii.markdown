@@ -22,7 +22,7 @@ function charToAscii(string){
   }
   return returnMap;
 }
-~~~ java
+~~~
 - 정규표현식을 이용하여 공백과 특수문자를 제거했다.
 - 특수문자를 제거하면서 공백도 제거할 수 있음을 몰랐다. removeBlank에서 한 정규표현식은 지워도 된다.
 - 정규표현식 어렵다...
@@ -39,7 +39,7 @@ function charToAscii(string){
   }
   return res;
 }
-~~~ java
+~~~
 - test를 이용해서도 문제를 풀 수 있다.
 - test는 정규표현식에 매칭되는 문자열이 있는 경우 true를 리턴한다.
 

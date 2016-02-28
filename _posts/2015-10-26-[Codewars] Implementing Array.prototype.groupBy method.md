@@ -32,7 +32,7 @@ Example:
   1: [1, 4, 1, 1],
   2: [2, 2, 5]
 }
-~~~ java
+~~~
 
 - 문제를 접했을 때 큰 생각이 없었다. 전략이 떠오르지 않으면 안되는데...
 - 맨 처음에 prototype 안에서 배열에 어떻게 접근하는지 잘 몰라서 좀 고생했다. 알고 보니 this 객체로 접근할 수 있다더라...
@@ -56,7 +56,7 @@ Array.prototype.groupBy = function(fn) {
     });
   return o;
 }
-~~~ java
+~~~
 
 - this 객체로 배열에 접근. fn이 있는지 없는지 찾은 다음에 key를 구한다. key를 가지고 리턴할 객체를 구성한다.
 - 실제로 필드에서 사용할 때는 fn을 체크하는 로직 또한 들어가야 할 것 같다.
@@ -70,7 +70,7 @@ Array.prototype.groupBy = function(fn) {
     return (o[v] = o[v] || []).push(a), o;
   }, {});
 }
-~~~ java
+~~~
 - 왜 reduce를 사용할 생각을 못했지? 리듀스를 썼다면 코드가 훨씬 더 우아해 졌을 거 같다.
 - 보통 베스트 솔루션들은 리듀스를 사용했다.
 
@@ -79,5 +79,5 @@ const _ = require('lodash');
 Array.prototype.groupBy = function(fn){
   return _.groupBy(this, fn);
 }
-~~~ java
+~~~ 
 - 그렇군. 현명하다...

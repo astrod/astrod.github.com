@@ -31,7 +31,7 @@ function getNth(node, index) {
   
   return getNth(node.next, index - 1);
 }
-~~~ java
+~~~
 - 재귀를 이용하여 Nth번째의 node 를 구한다.
 - index가 0이 되면 그 단계의 node를 리턴하면 된다.
 
@@ -48,7 +48,7 @@ function getNth(node, index) {
   else
     throw "invalid argument";  
 }
-~~~ java
+~~~ 
 - 삼항연산자를 이용하여 좀 더 문제를 깔끔하게 해결할 수 있는 거 같다.
 - 예외처리를 앞에 두는게 좋은지 이런 식으로 if - else로 처리하는게 좋은지는 잘 모르겠다.
 - 개인적으로는 벨리데이트 -> 문제 해결 의 순으로 로직이 흐르는 게 좀 더 깔끔해 보이는 거 같다.

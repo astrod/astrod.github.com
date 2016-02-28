@@ -17,14 +17,14 @@ jekyll은 텍스트 파일을 블로그로 만들어주는 기능을 한다. git
 
 ~~~ java
 sudo gem install jekyll
-~~~ java
+~~~
 
 을 하면 jekyll을 설치할 수 있다.
 
 ## 계정 주소 페이지 생성
 ~~~ java
 jekyll new 깃허브아이디.github.com 
-~~~ java
+~~~
 을 하면 깃허브사용자명.github.com이라는 디렉토리가 생길 것이다.
 이제 이 디렉토리를 깃 레퍼지토리에 push하면 깃허브를 사용할 수 있다.
 
@@ -32,7 +32,7 @@ jekyll new 깃허브아이디.github.com
 ~~~ java
 cd 깃허브사용자명.github.com
 jekyll serve --watch
-~~~ java
+~~~
 이렇게 하면 로컬에 서버를 띄울 수 있다.
 localhost:4000으로 접속하면 로컬에 뜬 서버가 보일 것이다. 사용자명.github.com 내의 파일을 수정하면 로컬 서버에 즉각적으로 수정 내역이 보이기 때문에 편리하게 사용할 수 있다.
 
@@ -53,7 +53,7 @@ localhost:4000으로 접속하면 로컬에 뜬 서버가 보일 것이다. 사�
  layout : post
  title : Hello, Jekyll
  ---
- ~~~ java
+ ~~~
  각 블로그 포스트에는 레이아웃과 타이틀이 반드시 들어가야 한다.
  
 ## 참고 사이트
