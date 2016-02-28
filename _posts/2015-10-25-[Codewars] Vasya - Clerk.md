@@ -18,7 +18,7 @@ Return YES, if Vasya can sell a ticket to each person and give the change. Other
 
 
 # 내 해답
-```
+~~~ java
 function tickets(peopleInLine){
   var moneyPool = {25 : 0, 50: 0, 100 : 0};
   var flag = true;
@@ -51,12 +51,12 @@ function tickets(peopleInLine){
   if(flag) return "YES";
   else return "NO";
 }
-```
+~~~ java
 - 모든 경우의 수를 따져서 문제가 생기면 break를 하고 에러를 리턴한다.
 - 경우의 수를 잘 못 따져서 고생했다. 좀 더 아름다운 방법이 있을 거 같은데...
 
 # Best Solution
-```
+~~~ java
 function tickets(peopleInLine) {
   var bills = [0, 0, 0]
   for (var i = 0; i < peopleInLine.length; i++) {
@@ -83,7 +83,7 @@ function tickets(peopleInLine) {
   
   return 'YES'
 }
-```
+~~~ java
 - switch-case를 사용해서 코드를 좀 더 깔끔하게 다듬었다.
 - 내가 한 방법과 크게 다르지 않음.
 - every를 사용한 한계인 거 같기도 하다.
