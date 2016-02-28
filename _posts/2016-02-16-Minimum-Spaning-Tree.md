@@ -2,7 +2,7 @@
 layout: post
 title: "Minimum Spaning Tree - 크루스칼 알고리즘"
 tags:
-- Algorithm
+- algorithm
 ---
 
 # Minimum Spaning Tree

@@ -11,3 +11,6 @@ markdown: kramdown
 rdiscount:
     extensions:
       - generate_toc
+
+#pagenate
+paginate : 7
