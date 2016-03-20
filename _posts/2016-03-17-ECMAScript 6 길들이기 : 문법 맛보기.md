@@ -143,4 +143,116 @@ let result = myFun(...data); => let result = myFun(1,4);
 ~~~
 
 ## 펼침 연산자의 다른 용례
+- 펼침 연산자를 통해 배열 값을 다른 배열의 일부로 만들 수 있다.
+
+~~~javascript
+let array1 = [1,3,5];
+let array2 = [4, ...array1,6,7,8];
+console.log(array2); // [4,1,3,5,6,7,8]
+~~~
+
+- 배열 값을 다른 배열에 밀어넣을 수 있다.
+
+~~~javascript
+let array1 = [2,3,4];
+let array2 = [1];
+
+array2.push(...array1);
+
+console.log(array2); // "1,2,3,4"
+~~~
+
+# 나머지 파라미터
+나머지 파라미터(rest parameter)는 함수의 마지막 파라미터 앞에 "..."을 붙인 것으로, 이름 붙은 파라미터(named parameter)보다 함수 파라미터를 더 많이 포함한 배열이다.
+
+개수가 가변적인 함수 인자를 포착하는 용도로 사용한다.
+
+ES5까지는 arguments객체로 전달된 함수 인자를 꺼내서 사용했는데, 이 객체는 배열은 아니지만 배열과 유사하게 사용할 수 있었다.
+
+~~~javascript
+function myFun(a, b) {
+	var args = Array.prototype.slice.call(arguments, myFun.length);
+	
+	console.log(args);
+}
+
+myFun(1,2,3,4,5); // "3,4,5"
+~~~
+arguments가 배열이 아니기 때문에 call로 slice를 호출해야 한다.
+
+위의 코드를 나머지 파라미터를 쓰면 더 간단하게 해결할 수 있다.
+
+~~~javascript
+function myFun(a,b, ...args) {
+	console.log(args); // "3,4,5"
+}
+~~~
+
+# 해체 할당
+해체 할당(destructuring assignment)는 이터러블이나 객체의 값/프로퍼티를 각각 배열이나 변수에 할당하는 표현식이다.
+
+## 배열 해체 할당
+이터러블 객체에서 값을 추출하여 변수에 할당한다. 배열 생성 리터럴과 비슷하여 이렇게 부른다. 이전에는 배열에 값을 할당하려면 이렇게 했었다.
+
+~~~javascript
+var myArray = [1,2,3];
+var a = myArray[0];
+var b = myArray[1];
+var c = myArray[2];
+~~~
+
+이것이 ES6에서는 이렇게 변화되었다.
+
+~~~javascript
+let arr = [1,2,3];
+let a,b,c;
+[a,b,c] = arr; // 배열 해제 할당 구문
+~~~
+
+더 짧게 줄일 수도 있다.
+~~~javascript
+let [a,b,c] = [1,2,3];
+~~~
+
+할당 없이 값을 건너뛰는 것도 가능하다.
+
+~~~javascript
+let [a, , b] = [1, 2, 3];
+console.log(a); // 1
+console.log(c); // 3
+~~~
+
+나머지 연산자를 사용할 수도 있다.
+
+~~~javascript
+let [a, ...b] = [1, 2, 3,4,5,6];
+console.log(b); // 2,3,4,5,6
+~~~
+
+## 객체 해체 할당
+객체 해체 할당은 객체 프로퍼티 값을 추출하여 변수에 할당한다.
+
+ES5 이전에는 객체 프로퍼티 값을 변수에 할당하려면 방법이 이것 뿐이었다.
+
+~~~javascript
+var obj = {"name" : "민호", "age" : 23};
+var name = obj.name;
+ver age = obj.age;
+~~~
+
+ES6부터는 객체 해체 할당문으로 해결할 수 있다.
+
+~~~javascript
+var obj = {"name" : "민호", "age" : 23};
+let name, age;
+({name, age} = object); // 배열 해체 할당 구문
+~~~
+
+객체 프로퍼티와 변수명은 반드시 같아야 한다. 만약 달리 하고 싶을 때는 다음처럼 하면 된다.
+
+~~~javascript
+var obj = {"name" : "민호", "age" : 23};
+let x, y;
+({name : x, age : y} = object);
+~~~
 
