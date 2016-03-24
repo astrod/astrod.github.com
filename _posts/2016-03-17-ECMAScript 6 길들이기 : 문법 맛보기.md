@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "ES6 문법 맛보기"
+comments: true
 tags:
 - ES6
 ---
