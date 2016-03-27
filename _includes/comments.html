@@ -7,8 +7,10 @@
       */
       
       var disqus_config = function () {
-      this.page.url = "{{ site.url }}"; // Replace PAGE_URL with your page's canonical URL variable
-      this.page.identifier = "{{ page.url }}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+            debugger;
+      this.page.url = "{{site.url}}" + "{{page.url}}"; // Replace PAGE_URL with your page's canonical URL variable
+      this.page.identifier = "{{ page.date }}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+      this.page.title = "{{ page.title }}"
       };
       
       (function() { // DON'T EDIT BELOW THIS LINE
