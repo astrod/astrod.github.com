@@ -16,3 +16,12 @@ rdiscount:
 paginate : 7
 
 disqus_short_name : astrod
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments : true
