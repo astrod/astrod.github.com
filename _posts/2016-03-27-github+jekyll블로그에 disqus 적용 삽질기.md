@@ -29,11 +29,12 @@ this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your pag
 ~~~
 
 이 부분에서 url / indentifier 값을 따로 줘야 한다. 이 값을 주는게 힘들었는데, 맨 처음에는
+{% raw %}
 
 ~~~javascript
 var disqus_config = function () {
-this.page.url = "{{page.url}}"; 
-this.page.identifier = "{{page.url}}";
+this.page.url = "{{ page.url }}"; 
+this.page.identifier = "{{ page.url }}";
 };
 ~~~
 
@@ -155,4 +156,6 @@ defaults:
 지칼 부트스트랩이나 옥토퍼스트를 쓰면 훨씬 짧은 시간에 이쁘게 만들 수 있었을 텐데 내가 뭘 하고 있는 거지...?!
 
 그래도 뿌듯함은 비교할 수 없다. 다음에는 GA를 붙여볼까 고민하고 있다. 그 전에 포스팅을 열심히 해야지.
+
+{% endraw %}
 
