@@ -88,7 +88,7 @@ let과 스코프 규칙은 동일하다.
 
 ~~~ javascript
 const a = {
-	"name: : "mark"
+	"name" : "mark"
 };
 
 console.log(a.name);
