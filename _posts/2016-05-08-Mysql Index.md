@@ -1,7 +1,7 @@
 ---
 title : "Mysql Index"
 tags :
-- DB
+- db
 ---
 
 # 개요
