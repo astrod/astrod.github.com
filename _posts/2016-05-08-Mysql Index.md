@@ -69,6 +69,9 @@ mysql> explain select url from entry where eid = 9615899
 
 possible_keys와 key의 차이점은 mysql이 선택한 인덱스 / 실제로 사용할 인덱스이다. 사용자가 force index, use index, ignore index같은 걸 이용하여 key에서 실제로 사용할 인덱스를 지정할 수 있다.
 
+# Extra
+explain 을 했을 때 extra에 나오는 정보 또한 중요하다. Using where 대신에 Using filesort나 Using temporary와 같은 항목이 나올 경우가 있다. 각각 레코드 정렬에 외부 정렬(외부 파일을 이용한 정렬)이나 임시 테이블이 필요하다는 이야기이다.
 
+기본적으로는 Using filesort나 Using temporary가 나오는 것이 좋은 쿼리라고 할 수 없으므로, 가능한 한 나오지 않도록 쿼리나 인덱스를 튜닝할 필요가 있다.
 
 
