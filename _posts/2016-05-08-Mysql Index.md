@@ -2,6 +2,7 @@
 title : "Mysql Index"
 tags :
 - db
+- book
 ---
 
 # 개요
