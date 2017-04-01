@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[Codewars] Vasya - Clerk"
-tags : "codewars"
+tags : "algorithm"
 ---
 
 # 문제

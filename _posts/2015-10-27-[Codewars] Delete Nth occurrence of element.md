@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[Codewars] Delete Nth occurrence of element"
-tags : "codewars"
+tags : "algorithm"
 ---
 
 # 문제

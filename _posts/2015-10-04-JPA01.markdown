@@ -1,7 +1,9 @@
 ---
 layout: post
 title:  "[책] 자바 ORM 표준 JPA 프로그래밍"
-category : "book"
+category :
+- book
+- java
 ---
 
 # 들어가며

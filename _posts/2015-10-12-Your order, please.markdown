@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[TIL] your order, please"
-tags : codewars
+tags : algorithm
 ---
 # 문제
 Description:

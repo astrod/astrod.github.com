@@ -2,7 +2,6 @@
 title:  "github+jekyll 블로그에 disqus 적용 삽질기"
 tags:
 - blog
-- disqus
 ---
 
 # 들어가며

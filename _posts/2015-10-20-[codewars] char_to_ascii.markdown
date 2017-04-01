@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[codewars] char_to_ascii"
-tags : "codewars"
+tags : "algorithm"
 ---
 
 # 문제

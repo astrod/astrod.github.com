@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "MS 어고노믹 데스크탑 구입!" 
-category : "사용기"
+tags :
+- etc
 ---
 
 # 욕심

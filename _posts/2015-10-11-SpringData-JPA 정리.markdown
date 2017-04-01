@@ -2,9 +2,7 @@
 layout: post
 title:  "스프링 데이터 JPA - Specification까지"
 tags: 
-- TIL
-- spring
-category : 테스트
+- java
 ---
 
 # 개요

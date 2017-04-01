@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[Codewars] Linked Lists = Get Nth Node"
-tags : "codewars"
+tags : "algorithm"
 ---
 
 # 문제

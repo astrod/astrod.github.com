@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "@Transactional 어노테이션"
-tags : "spring"
+tags : "java"
 ---
 
 # 동기

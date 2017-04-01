@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[Codewars] Playing with digits"
-tags : "codewars"
+tags : "algorithm"
 ---
 
 # 문제

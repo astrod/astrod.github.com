@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[Codewars] Implementing Array.prototype.groupBy method"
-tags : "codewars"
+tags : "algorithm"
 ---
 
 # 문제
