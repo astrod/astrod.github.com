@@ -53,11 +53,10 @@ layout: default
 			      tags     = post.tags;
 
 			  for (var j in tags) {
-			    tagsList += ''
-			      // + '<li>'
-			        + '<a href="/search?tags=' + tags[j] + '" class="post-meta">' + tags[j] + '</a>';
-			      // + '</li>';
-			  }
+			    	tagsList += ''
+			         	     + '<a href="/search?tags=' + tags[j] + '" class="post-meta">' + tags[j] + '</a>'
+			         	     + ' ';
+		  			}
 			  tagsList += '</div>';
 
 			  $results.append(
