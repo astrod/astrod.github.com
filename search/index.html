@@ -47,26 +47,26 @@ layout: default
 			for (var i in posts) {
 			  // Create an unordered list of the post's tags
 			  //tag의 마지막 값을 제거한다(항상 null이 들어오는 버그 존재)
-			  var tagsList = '<ul class="tags">',
+			  var tagsList = '<div class="wraper">',
 			      post     = posts[i];
 			  	  post.tags.splice(-1, 1);
 			      tags     = post.tags;
 
 			  for (var j in tags) {
 			    tagsList += ''
-			      + '<li>'
-			        + '<a href="/search?tags=' + tags[j] + '">' + tags[j] + '</a>'
-			      + '</li>';
+			      // + '<li>'
+			        + '<a href="/search?tags=' + tags[j] + '" class="post-meta">' + tags[j] + '</a>';
+			      // + '</li>';
 			  }
-			  tagsList += '</ul>';
+			  tagsList += '</div>';
 
 			  $results.append(
 			    '<li>'
 			      // Page anchor
 			      + '<header>'
-			        + '<h1>'
+			        + '<h2>'
 			          + '<a href="' + post.href + '">' + post.title + '</a>'
-			        + '</h1>'
+			        + '</h2>'
 			        // Tags
 			        + tagsList
 			      + '</header>'
