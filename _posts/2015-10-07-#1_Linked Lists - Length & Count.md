@@ -2,7 +2,7 @@
 layout: post
 title:  "Linked Lists - Length & Count"
 tags: 
-- codewars
+- algorithm
 ---
 
 ##Problom

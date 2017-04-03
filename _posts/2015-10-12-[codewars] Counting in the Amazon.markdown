@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[codewars] Counting in the Amazon"
-tags : "codewars"
+tags : algorithm
 ---
 
 # 문제

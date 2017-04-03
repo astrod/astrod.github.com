@@ -12,7 +12,7 @@ tags : "java"
 
 먼저 <tx:annotation-driven /> 태그를 사용하면 등록된 빈 중에서 @Transactional이 붙은 클래스나 인터페이스/메소드를 찾아서 트랜젝션 어드바이스를 적용해준다.
 
-~~~ java
+~~~java
 @Transactional
 public interface MemberDao {
     public void add(Member m);
@@ -24,7 +24,7 @@ public interface MemberDao {
     @Transactional(readOnly=true)
     public long count();
 }
-~~~ java
+~~~
 
 - 인터페이스에 @Transactional을 붙이면 인터페이스 안에 모든 메소드에 적용된다.
 - @Transactional 을 메소드에 붙이면 메소드 단위에만 적용할 수도 있다.
