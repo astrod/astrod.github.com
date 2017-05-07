@@ -6,8 +6,7 @@ tags:
 
 # 들어가며
 이 포스팅의 내용은 <<Java 언어로 배우는 디자인 패턴>> 20장 Flyweight 패턴을 정리한 것입니다. 여기 나오는 코드는 JDK 1.8에서 작성, 테스트 되었습니다.
-이 포스팅에 있는 코드는 [여기](https://github.com/astrod/design-pattern/tree/master/src/main/java/pattern/JU/flyweight) 서 확인하실 수 있습니다.
-코드 또한 책에서 예제로 나온 코드를 조금 변경한 것입니다.
+이 포스팅에 있는 코드는 [여기](https://github.com/astrod/design-pattern/tree/master/src/main/java/pattern/JU/flyweight) 서 확인하실 수 있습니다. 코드 또한 책에서 예제로 나온 코드를 조금 변경한 것입니다.
 
 # Flyweight 패턴
 Flyweight 패턴은 객체를 가볍게 사용하기 위한 패턴입니다. 가상의 세계에서 가볍다는 표현은 적절하지 않을 수 있습니다. 여기서 가볍다는 뜻은, 메모리를 조금 사용한다는 의미입니다.
