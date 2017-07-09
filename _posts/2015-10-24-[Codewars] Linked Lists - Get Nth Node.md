@@ -4,6 +4,9 @@ title:  "[Codewars] Linked Lists = Get Nth Node"
 tags : "algorithm"
 ---
 
+* toc
+{:toc}
+
 # 문제
 Description:
 

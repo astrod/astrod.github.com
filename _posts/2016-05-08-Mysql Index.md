@@ -1,9 +1,13 @@
 ---
+layout: post
 title : "Mysql Index"
 tags :
 - db
 - book
 ---
+
+* toc
+{:toc}
 
 # 개요
 이 포스팅의 내용은 <<대규모 서비스를 지탱하는 기술>>의 DB index 관련 부분 내용을 요약한 것이다.

@@ -4,6 +4,9 @@ title:  "[Codewars] Playing with digits"
 tags : "algorithm"
 ---
 
+* toc
+{:toc}
+
 # 문제
 Some numbers have funny properties. For example:
 

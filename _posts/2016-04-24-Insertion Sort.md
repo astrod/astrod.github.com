@@ -1,8 +1,12 @@
 ---
+layout: post
 title: "Insertion Sort"
 tags:
 - algorithm
 ---
+
+* toc
+{:toc}
 
 # 들어가며
 Insertion Sort는 O(n^2)의 시간복잡도를 가진 정렬 알고리즘이다. 내가 알고 있는 O(n^2)의 시간복잡도를 가진 알고리즘은 버블소트, 셀렉션소트, 인서션소트 이 세 가지인데, 이 중 가장 효율적인 알고리즘이기도 하다.

@@ -1,8 +1,13 @@
 ---
+layout: post
 title: "ES6 문법 맛보기"
 tags:
 - javascript
 ---
+
+* toc
+{:toc}
+
 # 들어가며
 이 글에 나오는 내용은 ECMAScript 6 길들이기의 1장 내용의 요약이다.
 

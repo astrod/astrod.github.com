@@ -4,8 +4,10 @@ title:  "Linked Lists - Length & Count"
 tags: 
 - algorithm
 ---
+* toc
+{:toc}
 
-##Problom
+## Problom
 
 ~~~ java
 Description:
@@ -27,7 +29,7 @@ The push() and buildOneTwoThree() functions do not need to be redefined.
 ~~~
 > linked List의 길이와 데이터를 구하는 문제. 어렵지 않은 문제라고 생각했으나 best 답변을 보니 생각보다 머리를 굴릴 요소가 많았다.
 
-##My Solution
+## My Solution
 
 ~~~ java
 function Node(data) {
@@ -56,7 +58,7 @@ function count(head, data) {
 }
 ~~~
 
-##Best Solution
+## Best Solution
 ~~~ java
 function Node(data) {
   this.data = data

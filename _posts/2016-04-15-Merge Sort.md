@@ -1,8 +1,12 @@
 ---
+layout: post
 title : "Merge Sort"
 tags :
 - algorithm
 ---
+
+* toc
+{:toc}
 
 # Merge Sort
 merge sort는 O(nlogn) 의 정렬 알고리즘이다. 분산 시스템이나 배열이 너무 커서 모든 배열을 메모리에 올려서 작업을 할 수 없을 때, 위의 정렬 방식을 사용한다. 배열을 모두 메모리에 올릴 수 있다면 Quick Sort가 더 효율적인 정렬 방식이다.

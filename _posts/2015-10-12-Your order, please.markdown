@@ -3,6 +3,10 @@ layout: post
 title:  "[TIL] your order, please"
 tags : algorithm
 ---
+
+* toc
+{:toc}
+
 # 문제
 Description:
 

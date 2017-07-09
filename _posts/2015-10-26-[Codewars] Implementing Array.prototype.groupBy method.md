@@ -4,6 +4,9 @@ title:  "[Codewars] Implementing Array.prototype.groupBy method"
 tags : "algorithm"
 ---
 
+* toc
+{:toc}
+
 # 문제
 Description:
 

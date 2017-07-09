@@ -5,6 +5,9 @@ tags:
 - algorithm
 ---
 
+* toc
+{:toc}
+
 # Minimum Spaning Tree
 
 ## 들어가며

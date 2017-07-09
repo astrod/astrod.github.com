@@ -4,6 +4,9 @@ title:  "[codewars] Counting in the Amazon"
 tags : algorithm
 ---
 
+* toc
+{:toc}
+
 # 문제
 The Arara are an isolated tribe found in the Amazon who count in pairs. For example one to eight is as follows:
 

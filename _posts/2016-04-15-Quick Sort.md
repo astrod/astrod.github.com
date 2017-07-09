@@ -1,8 +1,12 @@
 ---
+layout: post
 title: "Quick Sort"
 tags:
 - algorithm
 ---
+
+* toc
+{:toc}
 
 # Quick Sort
 

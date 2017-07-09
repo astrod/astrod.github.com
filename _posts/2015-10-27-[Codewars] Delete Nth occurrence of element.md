@@ -4,6 +4,9 @@ title:  "[Codewars] Delete Nth occurrence of element"
 tags : "algorithm"
 ---
 
+* toc
+{:toc}
+
 # 문제
 Enough is enough!
 
