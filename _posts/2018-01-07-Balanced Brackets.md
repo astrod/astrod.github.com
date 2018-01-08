@@ -5,6 +5,9 @@ tags:
 - algorithm
 ---
 
+* toc
+{:toc}
+
 # 문제
 [링크](https://www.hackerrank.com/challenges/balanced-brackets/problem)
 
