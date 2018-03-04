@@ -3,6 +3,8 @@ layout: post
 title: "ES6 문법 맛보기"
 tags:
 - javascript
+category:
+- js
 ---
 
 * toc

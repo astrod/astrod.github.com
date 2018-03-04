@@ -2,6 +2,8 @@
 layout: post
 title:  "@Transactional 어노테이션"
 tags : "java"
+category:
+- spring
 ---
 
 * toc

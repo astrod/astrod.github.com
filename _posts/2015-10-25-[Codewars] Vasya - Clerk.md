@@ -2,6 +2,8 @@
 layout: post
 title:  "[Codewars] Vasya - Clerk"
 tags : "algorithm"
+category:
+- algorithm
 ---
 
 * toc

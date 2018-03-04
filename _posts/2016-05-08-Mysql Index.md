@@ -4,6 +4,8 @@ title : "Mysql Index"
 tags :
 - db
 - book
+category:
+- db
 ---
 
 * toc

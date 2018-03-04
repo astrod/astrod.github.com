@@ -3,6 +3,8 @@ layout: post
 title: "Balanced Brackets"
 tags:
 - algorithm
+category:
+- algorithm
 ---
 
 * toc

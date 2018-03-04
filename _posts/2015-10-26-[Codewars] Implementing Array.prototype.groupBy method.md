@@ -2,6 +2,8 @@
 layout: post
 title:  "[Codewars] Implementing Array.prototype.groupBy method"
 tags : "algorithm"
+category:
+- algorithm
 ---
 
 * toc

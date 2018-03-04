@@ -3,6 +3,8 @@ layout: post
 title: "Flyweight 디자인 패턴"
 tags:
 - design_pattern
+category:
+- design_pattern
 ---
 
 * toc

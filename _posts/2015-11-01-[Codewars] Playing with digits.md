@@ -2,6 +2,8 @@
 layout: post
 title:  "[Codewars] Playing with digits"
 tags : "algorithm"
+category:
+- algorithm
 ---
 
 * toc

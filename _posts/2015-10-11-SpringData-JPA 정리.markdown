@@ -3,6 +3,8 @@ layout: post
 title:  "스프링 데이터 JPA - Specification까지"
 tags: 
 - java
+category:
+- java
 ---
 
 * toc

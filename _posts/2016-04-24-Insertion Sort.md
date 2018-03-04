@@ -3,6 +3,8 @@ layout: post
 title: "Insertion Sort"
 tags:
 - algorithm
+category:
+- algorithm
 ---
 
 * toc

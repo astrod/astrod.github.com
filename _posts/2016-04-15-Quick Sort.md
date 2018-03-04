@@ -3,6 +3,8 @@ layout: post
 title: "Quick Sort"
 tags:
 - algorithm
+category:
+- algorithm
 ---
 
 * toc

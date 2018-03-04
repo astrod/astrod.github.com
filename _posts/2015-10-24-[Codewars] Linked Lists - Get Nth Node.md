@@ -2,6 +2,8 @@
 layout: post
 title:  "[Codewars] Linked Lists = Get Nth Node"
 tags : "algorithm"
+category:
+- algorithm
 ---
 
 * toc

@@ -3,6 +3,8 @@ layout: post
 title : "Merge Sort"
 tags :
 - algorithm
+category:
+- algorithm
 ---
 
 * toc

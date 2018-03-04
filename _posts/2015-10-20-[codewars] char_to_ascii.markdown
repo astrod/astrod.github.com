@@ -2,6 +2,8 @@
 layout: post
 title:  "[codewars] char_to_ascii"
 tags : "algorithm"
+category:
+- algorithm
 ---
 
 * toc

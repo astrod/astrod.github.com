@@ -3,6 +3,8 @@ layout: post
 title: "is Binary Search Tree"
 tags:
 - algorithm
+category:
+- algorithm
 ---
 
 * toc

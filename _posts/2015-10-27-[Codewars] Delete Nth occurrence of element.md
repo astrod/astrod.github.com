@@ -2,6 +2,8 @@
 layout: post
 title:  "[Codewars] Delete Nth occurrence of element"
 tags : "algorithm"
+category:
+- algorithm
 ---
 
 * toc
