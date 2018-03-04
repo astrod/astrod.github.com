@@ -3,6 +3,8 @@ layout: post
 title: "MS 어고노믹 데스크탑 구입!" 
 tags :
 - etc
+category:
+- etc
 ---
 
 * toc

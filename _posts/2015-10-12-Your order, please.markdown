@@ -2,6 +2,8 @@
 layout: post
 title:  "[TIL] your order, please"
 tags : algorithm
+category:
+- algorithm
 ---
 
 * toc

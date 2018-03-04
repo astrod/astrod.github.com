@@ -3,6 +3,8 @@ layout: post
 title:  "Linked Lists - Length & Count"
 tags: 
 - algorithm
+category:
+- algorithm
 ---
 * toc
 {:toc}

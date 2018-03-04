@@ -2,6 +2,8 @@
 layout: post
 title:  "[codewars] Counting in the Amazon"
 tags : algorithm
+category:
+- algorithm
 ---
 
 * toc
