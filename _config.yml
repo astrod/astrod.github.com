@@ -5,7 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://astrod.github.io" # the base hostname & protocol for your site
 github_username: astrod
-permalink: /:year/:month/:day/:i_day.html
+permalink: pretty
 
 # other links
 facebook_username: chaejongun
