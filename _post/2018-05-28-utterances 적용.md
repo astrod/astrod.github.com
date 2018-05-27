@@ -2,9 +2,9 @@
 layout: post
 title: "utterances 적용"
 tags:
-- etc
-category:
 - blog
+category:
+- etc
 ---
 
 * toc
