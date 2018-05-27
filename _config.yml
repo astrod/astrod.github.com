@@ -16,7 +16,7 @@ description_footer : "웹 개발에 대한 블로그입니다."
 
 # comments
 # two ways to comment, only choose one, and use your own short name
-disqus_shortname: astrod
+# disqus_shortname: astrod
 
 google_analytics_id: UA-76209577-1
 
