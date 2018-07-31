@@ -304,5 +304,19 @@ Kibana 는 Elasticsearch 에 있는 데이터를 시각화하여 보여주는 �
 ## 설치
 
 ~~~shell
-
+wget https://artifacts.elastic.co/downloads/kibana/kibana-6.3.0-linux-x86_64.tar.gz
+cd apps
+tar xfz kibana-6.3.0-linux-x86_64.tar.gz
+ln -s kibana-6.3.0-linux-x86_64 kibana
 ~~~
+
+키바나를 다운로드 받고 압축을 푼다.  
+
+## 실행
+
+~~~shell
+bin/kibana
+~~~
+
+같은 서버에서 키바나와 Elasticsearch 를 동시에 실행시키면 자동으로 연동된다. 기본 포트는 5601 번이다.
+
