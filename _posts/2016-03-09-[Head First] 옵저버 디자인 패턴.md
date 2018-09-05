@@ -1,8 +1,10 @@
 ---
 layout: post
-title: "옵저버 디자인 패턴"
+title: "[Head First] 옵저버 디자인 패턴"
 tags:
 - design_pattern
+- book
+- java
 category:
 - design_pattern
 ---
